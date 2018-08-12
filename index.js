@@ -1,8 +1,16 @@
 const express = require('express');
 const Joi = require('joi');
+const morgan = require('morgan');
+const helmet = require('helmet');
 const app = express();
 
-app.use(express.json()); // JSON middleware
+/* Middleware */
+app.use(express.json()); // parses JSON in req.body
+app.use(express.urlencoded({ extended: true })); // parses urlencoded in req.body
+app.use(morgan('tiny')); // logs HTTP requests to the console
+app.use(helmet()); // sets HTTP headers for security
+
+app.use(express.static('public')); // serves static files from public/
 
 // Fake database model for now
 const genres = [
@@ -16,7 +24,7 @@ app.get('/', (req, res) => {
     res.send('Vidly | A genre manager');
 });
 
-/* HTTP endpoint handling */
+/* API endpoints */
 
 // Access a list of all genres
 app.get('/api/genres', (req, res) => {
