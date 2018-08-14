@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const Fawn = require('fawn');
-const { Rental, validate } = require('../models/movie');
+const mongoose = require('mongoose');
+const { Rental, validate } = require('../models/rental');
 const { Customer } = require('../models/customer');
 const { Movie } = require('../models/movie');
 
@@ -29,6 +30,7 @@ router.post('/', async (req, res) => {
 
     const movie = await Movie.findById(movieId);
     if (!movie) return res.status(400).send('invalid movie id');
+    if (movie.numberInStock === 0) return res.status(400).send('none left in stock'); 
 
     // Creating the rental
     let rental = new Rental({

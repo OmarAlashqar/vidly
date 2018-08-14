@@ -14,7 +14,7 @@ const MAX_UTIL = 5000;
 /* Mongoose Schema */
 const Rental = mongoose.model('rental', {
     customer: {
-        type: new mongoose.Schema({
+        type: {
             name: {
                 type: String,
                 required: true,
@@ -31,11 +31,11 @@ const Rental = mongoose.model('rental', {
                 minlength: MIN_PHONE_LENGTH,
                 maxlength: MAX_PHONE_LENGTH
             }
-        }),
+        },
         required: true
     },
-    movie: new mongoose.Schema({
-        type: new mongoose.Schema({
+    movie: {
+        type: {
             title: {
                 type: String,
                 required: true,
@@ -48,9 +48,9 @@ const Rental = mongoose.model('rental', {
                 minlength: MIN_UTIL,
                 maxlength: MAX_UTIL
             }
-        }),
+        },
         required: true
-    }),
+    },
     dateBooked: {
         type: Date,
         required: true,
