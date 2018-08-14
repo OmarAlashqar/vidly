@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
 // Access a specific genre by ID
 router.get('/:id', async (req, res) => {
     // Check if genre exists
-    const genre = await Genre.findById(req.params.id)
+    const genre = await Genre.findById(req.params.id);
     if (!genre) return res.status(404).send('Genre with given id was not found');
 
     res.send(genre);
@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
 // Add a new genre
 router.post('/', async (req, res) => {
     // Validate with schema
-    const { error } = validateGenre(req.body);
+    const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
     const genre = new Genre({ name: req.body.name });
@@ -32,7 +32,7 @@ router.post('/', async (req, res) => {
 // Update a genre
 router.put('/:id', async (req, res) => {
     // Validate with schema
-    const { error } = validateGenre(req.body);
+    const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
     // Finds and updates the genre, and returns the updated genre

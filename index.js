@@ -9,6 +9,7 @@ const app = express();
 const index = require('./routes/index');
 const genres = require('./routes/genres');
 const customers = require('./routes/customers');
+const movies = require('./routes/movies');
 
 // Debugger for console output
 // Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
@@ -38,6 +39,7 @@ app.use(express.static('public')); // serves static files from public/
 app.use('/', index);
 app.use('/api/genres', genres);
 app.use('/api/customers', customers);
+app.use('/api/movies', movies);
 
 if (app.get('env') === 'development') {
     app.use(morgan('tiny')); // logs HTTP requests to the console

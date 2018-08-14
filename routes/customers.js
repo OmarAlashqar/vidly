@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
 // Access a specific customer by ID
 router.get('/:id', async (req, res) => {
     // Check if customer exists
-    const customer = await Customer.findById(req.params.id)
+    const customer = await Customer.findById(req.params.id);
     if (!customer) return res.status(404).send('customer with given id was not found');
 
     res.send(customer);
@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
 // Update a customer
 router.put('/:id', async (req, res) => {
     // Validate with schema
-    const { error } = validate(req.body);
+    const { error } = validateUpdate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
     // Finds and updates the customer, and returns the updated customer

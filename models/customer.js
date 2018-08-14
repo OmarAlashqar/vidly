@@ -25,7 +25,7 @@ const Customer = mongoose.model('customer', {
 });
 
 /* JOI schema validators */
-function validateCustomer(customer) {
+function validate(customer) {
     const schema = {
         name: Joi.string().min(MIN_NAME_LENGTH).max(MAX_NAME_LENGTH).required(),
         phone: Joi.string().min(MIN_PHONE_LENGTH).required(),
