@@ -6,8 +6,9 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Routes
-const genres = require('./routes/genres');
 const index = require('./routes/index');
+const genres = require('./routes/genres');
+const customers = require('./routes/customers');
 
 // Debugger for console output
 // Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
@@ -34,8 +35,9 @@ app.use(helmet()); // sets HTTP headers for security
 app.use(express.static('public')); // serves static files from public/
 
 // Routes
-app.use('/api/genres', genres);
 app.use('/', index);
+app.use('/api/genres', genres);
+app.use('/api/customers', customers);
 
 if (app.get('env') === 'development') {
     app.use(morgan('tiny')); // logs HTTP requests to the console

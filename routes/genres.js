@@ -1,28 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose');
-const Joi = require('joi');
-
-const MIN_GENRE_LENGTH = 1;
-const MAX_GERNE_LENGTH = 50;
-
-/* JOI schema validators */
-function validateGenre(genre) {
-    const schema = {
-        name: Joi.string().min(MIN_GENRE_LENGTH).max(MAX_GERNE_LENGTH).required()
-    };
-    return Joi.validate(genre, schema);
-}
-
-/* Mongoose Schema */
-const Genre = mongoose.model('genre', {
-    name: {
-        type: String,
-        required: true,
-        minlength: MIN_GENRE_LENGTH,
-        maxlength: MAX_GERNE_LENGTH
-    }
-});
+const { Genre, validate } = require('../models/genre');
 
 /* API endpoints */
 
