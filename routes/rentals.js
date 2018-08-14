@@ -1,8 +1,11 @@
 const express = require('express');
 const router = express.Router();
+const Fawn = require('fawn');
 const { Rental, validate } = require('../models/movie');
 const { Customer } = require('../models/customer');
 const { Movie } = require('../models/movie');
+
+Fawn.init(mongoose); // Fawn is used for two phase commits to emulate transactions
 
 /* API endpoints */
 
@@ -41,12 +44,20 @@ router.post('/', async (req, res) => {
             dailyRentalRate: movie.dailyRentalRate
         }
     });
-    rental = await rental.save();
 
-    movie.numberInStock--;
-    movie.save();
+    // transaction
+    try {
+        new Fawn.Task()
+            .save('rentals', rental)
+            .update('movies', { _id: movie._id }, {
+                $inc: { numberInStock: -1 }
+            })
+            .run();
 
-    res.send(rental);
+            res.send(rental);
+    } catch (ex) {
+        return res.status(500).send('Something went wrong in the server');
+    }
 });
 
 module.exports = router;
