@@ -10,6 +10,7 @@ const index = require('./routes/index');
 const genres = require('./routes/genres');
 const customers = require('./routes/customers');
 const movies = require('./routes/movies');
+const rentals = require('./routes/rentals');
 
 // Debugger for console output
 // Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
@@ -40,6 +41,7 @@ app.use('/', index);
 app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 app.use('/api/movies', movies);
+app.use('/api/rentals', rentals);
 
 if (app.get('env') === 'development') {
     app.use(morgan('tiny')); // logs HTTP requests to the console

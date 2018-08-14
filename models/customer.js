@@ -4,6 +4,7 @@ const Joi = require('joi');
 const MIN_NAME_LENGTH = 1;
 const MAX_NAME_LENGTH = 50;
 const MIN_PHONE_LENGTH = 1;
+const MAX_PHONE_LENGTH = 15;
 
 /* Mongoose Schema */
 const Customer = mongoose.model('customer', {
@@ -16,7 +17,8 @@ const Customer = mongoose.model('customer', {
     phone: {
         type: Number,
         required: true,
-        minlength: MIN_PHONE_LENGTH
+        minlength: MIN_PHONE_LENGTH,
+        maxlength: MAX_PHONE_LENGTH
     },
     isGold: {
         type: Boolean,
@@ -28,7 +30,7 @@ const Customer = mongoose.model('customer', {
 function validate(customer) {
     const schema = {
         name: Joi.string().min(MIN_NAME_LENGTH).max(MAX_NAME_LENGTH).required(),
-        phone: Joi.string().min(MIN_PHONE_LENGTH).required(),
+        phone: Joi.string().min(MIN_PHONE_LENGTH).max(MAX_PHONE_LENGTH).required(),
         isGold: Joi.boolean()
     };
     return Joi.validate(customer, schema);
