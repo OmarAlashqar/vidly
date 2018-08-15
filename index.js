@@ -3,6 +3,8 @@ const config = require('config');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
+const Joi = reqquire('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 const app = express();
 
 // Routes

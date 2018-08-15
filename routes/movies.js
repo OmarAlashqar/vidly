@@ -38,7 +38,9 @@ router.post('/', async (req, res) => {
             name: genre.name
         }
     });
-    res.send(await movie.save());
+    await movie.save()
+
+    res.send(movie);
 });
 
 // Update a movie

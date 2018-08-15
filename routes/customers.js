@@ -27,7 +27,9 @@ router.post('/', async (req, res) => {
 
     const { name, phone, isGold } = req.body;
     const customer = new Customer({ name, phone, isGold });
-    res.send(await customer.save());
+    await customer.save()
+
+    res.send(customer);
 });
 
 // Update a customer
