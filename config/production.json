@@ -1,3 +1,4 @@
 {
-    "name": "vidly-production"
+    "name": "vidly-production",
+    "PROD_DB": ""
 }

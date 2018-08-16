@@ -3,9 +3,21 @@ const config = require('config');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
-const Joi = reqquire('joi');
+const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
 const app = express();
+
+// Debugger for console output
+// Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
+// Usage: Set an argument: DEBUG=vidly:db nodemon index.js
+const debug = require('debug')('vidly:startup');
+
+if (!config.get('jwtPrivateKey')) {
+    console.log('key', config.get('jwtPrivateKey'));
+    
+    console.error('FATAL ERROR: jwtPrivateKey is not defined');
+    process.exit(1);
+}
 
 // Routes
 const index = require('./routes/index');
@@ -13,11 +25,8 @@ const genres = require('./routes/genres');
 const customers = require('./routes/customers');
 const movies = require('./routes/movies');
 const rentals = require('./routes/rentals');
-
-// Debugger for console output
-// Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
-// Usage: Set an argument: DEBUG=vidly:db nodemon index.js
-const debug = require('debug')('vidly:startup');
+const users = require('./routes/users');
+const auth = require('./routes/auth');
 
 /* Connect to DB */
 // Make sure DB url is set: 'mongodb://localhost:<port>/<db>' etc.
@@ -44,6 +53,8 @@ app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 app.use('/api/movies', movies);
 app.use('/api/rentals', rentals);
+app.use('/api/users', users);
+app.use('/api/auth', auth);
 
 if (app.get('env') === 'development') {
     app.use(morgan('tiny')); // logs HTTP requests to the console

@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 });
 
 // Creating a rental
-router.post('/', async (req, res) => {
+router.post('/', auth, async (req, res) => {
     // Validate rental request
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
