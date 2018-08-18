@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
-/* User auth middleware to handle JWT */
+/* User authorization middleware to handle JWT */
 
 module.exports = function (req, res, next) {
     const token = req.header('x-auth-token');
