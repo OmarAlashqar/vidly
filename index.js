@@ -1,13 +1,14 @@
 require('express-async-errors'); // monkey patches error handling for routers
 const express = require('express');
-const config = require('config');
-const morgan = require('morgan');
-const helmet = require('helmet');
+const config = require('config'); // sets up environment variables
+const winston = require('winston'); // logging errors via transports
+const morgan = require('morgan'); // logs HTTP requests to the console
+const helmet = require('helmet'); // sets HTTP headers for security
 const mongoose = require('mongoose');
-const Joi = require('joi');
+const Joi = require('joi'); // schema http requests validation
 Joi.objectId = require('joi-objectid')(Joi);
 
-const error = require('./middleware/error');
+const error = require('./middleware/error'); // error handling middleware
 
 const app = express();
 
@@ -17,9 +18,12 @@ const app = express();
 const debug = require('debug')('vidly:startup');
 
 if (!config.get('jwtPrivateKey')) {
-    console.error('FATAL ERROR: jwtPrivateKey is not defined');
+    console.error('FATAL ERROR: vidly_jwtPrivateKey is not defined');
     process.exit(1);
 }
+
+// setup logging to a file
+winston.add(new winston.transports.File({ filename: 'logfile.log' }));
 
 // Routes
 const index = require('./routes/index');
@@ -46,7 +50,7 @@ console.log(`Application name: ${config.get('name')}`);
 /* Middleware */
 app.use(express.json()); // parses JSON in req.body
 app.use(express.urlencoded({ extended: true })); // parses urlencoded in req.body
-app.use(helmet()); // sets HTTP headers for security
+app.use(helmet());
 app.use(express.static('public')); // serves static files from public/
 
 // Routes
@@ -58,10 +62,10 @@ app.use('/api/rentals', rentals);
 app.use('/api/users', users);
 app.use('/api/auth', auth);
 
-app.use(error); // error handling middleware
+app.use(error);
 
 if (app.get('env') === 'development') {
-    app.use(morgan('tiny')); // logs HTTP requests to the console
+    app.use(morgan('tiny'));
     debug('Morgan enabled...');
 }
 
