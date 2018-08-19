@@ -1,3 +1,4 @@
+require('express-async-errors'); // monkey patches error handling for routers
 const express = require('express');
 const config = require('config');
 const morgan = require('morgan');
@@ -5,6 +6,9 @@ const helmet = require('helmet');
 const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
+
+const error = require('./middleware/error');
+
 const app = express();
 
 // Debugger for console output
@@ -13,8 +17,6 @@ const app = express();
 const debug = require('debug')('vidly:startup');
 
 if (!config.get('jwtPrivateKey')) {
-    console.log('key', config.get('jwtPrivateKey'));
-    
     console.error('FATAL ERROR: jwtPrivateKey is not defined');
     process.exit(1);
 }
@@ -55,6 +57,8 @@ app.use('/api/movies', movies);
 app.use('/api/rentals', rentals);
 app.use('/api/users', users);
 app.use('/api/auth', auth);
+
+app.use(error); // error handling middleware
 
 if (app.get('env') === 'development') {
     app.use(morgan('tiny')); // logs HTTP requests to the console
