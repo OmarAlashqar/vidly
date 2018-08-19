@@ -12,18 +12,23 @@ const error = require('./middleware/error'); // error handling middleware
 
 const app = express();
 
+// setup logging to a file
+winston.add(new winston.transports.File({ filename: 'logfile.log' }));
+
 // Debugger for console output
 // Usage: Set an environment variable: DEBUG=vidly:startup,vidly:db or DEBUG=*
 // Usage: Set an argument: DEBUG=vidly:db nodemon index.js
 const debug = require('debug')('vidly:startup');
 
+process.on('uncaughtException', (ex) => {
+    debug('Uncaught exception');
+    winston.error(ex.message, ex);
+});
+
 if (!config.get('jwtPrivateKey')) {
     console.error('FATAL ERROR: vidly_jwtPrivateKey is not defined');
     process.exit(1);
 }
-
-// setup logging to a file
-winston.add(new winston.transports.File({ filename: 'logfile.log' }));
 
 // Routes
 const index = require('./routes/index');
