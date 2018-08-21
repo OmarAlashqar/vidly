@@ -1,4 +1,4 @@
 {
     "name": "vidly-development",
-    "DEV_DB": "mongodb://localhost:27017/vidly-dev-db"
+    "db": "mongodb://localhost:27017/vidly-dev-db"
 }

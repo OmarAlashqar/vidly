@@ -1,4 +1,4 @@
 {
-    "PROD_DB": "vidly_mongodb",
+    "db": "vidly_mongodb",
     "jwtPrivateKey": "vidly_jwtPrivateKey"
 }
