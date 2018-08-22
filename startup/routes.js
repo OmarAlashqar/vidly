@@ -1,7 +1,6 @@
 /* Setup for middleware + routes */
 const express = require('express');
 const morgan = require('morgan'); // logs HTTP requests to the console
-const helmet = require('helmet'); // sets HTTP headers for security
 const error = require('../middleware/error'); // error handling middleware
 
 // Routes
@@ -23,7 +22,6 @@ module.exports = function(app) {
     /* Middleware */
     app.use(express.json()); // parses JSON in req.body
     app.use(express.urlencoded({ extended: true })); // parses urlencoded in req.body
-    app.use(helmet());
     app.use(express.static('public')); // serves static files from public/
     
     if (app.get('env') === 'development') {

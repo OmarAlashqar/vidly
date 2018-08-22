@@ -7,6 +7,9 @@ require('./startup/routes')(app); // middleware + routes setup
 require('./startup/db')(app); // connect to db
 require('./startup/config')(app); // config settings
 require('./startup/validation')(app); // setup validation
+if (process.NODE_ENV === 'production') {
+    require('./startup/prod')(app);
+}
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => winston.info(`Server listening on port ${port}...`));

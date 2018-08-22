@@ -466,3 +466,5 @@
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-dev-db...","level":"info"}
