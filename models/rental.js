@@ -12,9 +12,9 @@ const MIN_UTIL = 0; // used for numberInstock and dailyRentalRate
 const MAX_UTIL = 5000;
 
 /* Mongoose Schema */
-const Rental = mongoose.model('rental', {
+const Rental = mongoose.model('rental', new mongoose.Schema({
     customer: {
-        type: {
+        type: new mongoose.Schema({
             name: {
                 type: String,
                 required: true,
@@ -31,11 +31,11 @@ const Rental = mongoose.model('rental', {
                 minlength: MIN_PHONE_LENGTH,
                 maxlength: MAX_PHONE_LENGTH
             }
-        },
+        }),
         required: true
     },
     movie: {
-        type: {
+        type: new mongoose.Schema({
             title: {
                 type: String,
                 required: true,
@@ -48,7 +48,7 @@ const Rental = mongoose.model('rental', {
                 minlength: MIN_UTIL,
                 maxlength: MAX_UTIL
             }
-        },
+        }),
         required: true
     },
     dateBooked: {
@@ -61,7 +61,7 @@ const Rental = mongoose.model('rental', {
         type: Number,
         min: 0
     }
-});
+}));
 
 /* JOI schema validators */
 function validate(rental) {

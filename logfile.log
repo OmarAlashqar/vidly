@@ -1,34 +1,19 @@
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-dev-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
+{"level":"error","message":"Joi.ObjectId is not a function"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
@@ -42,12 +27,10 @@
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
@@ -56,26 +39,20 @@
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
@@ -87,32 +64,20 @@
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
@@ -121,151 +86,338 @@
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
+{"message":null,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c3f7","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c3f4","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c3f5","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.384Z","__v":0,"dateReturned":"2018-08-22T03:00:49.387Z"},"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c400","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c3fd","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c3fe","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.404Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c409","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c406","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c407","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.427Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c414","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c411","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c412","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.440Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c41f","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c41c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c41d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.455Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd1e173252b30b6a8c428","customer":{"isGold":false,"_id":"5b7cd1e173252b30b6a8c425","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd1e173252b30b6a8c426","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:00:49.466Z","__v":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-dev-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcd9da","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcd9d7","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcd9d8","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.810Z","__v":0,"dateReturned":"2018-08-22T03:01:25.812Z"},"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcd9e3","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcd9e0","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcd9e1","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.826Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcd9ec","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcd9e9","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcd9ea","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.836Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcd9f7","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcd9f4","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcd9f5","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.847Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcda02","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcd9ff","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcda00","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.860Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd205e60b61313cdcda0b","customer":{"isGold":false,"_id":"5b7cd205e60b61313cdcda08","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd205e60b61313cdcda09","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:25.871Z","__v":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be816","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be813","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be814","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.440Z","__v":0,"dateReturned":"2018-08-22T03:01:40.441Z"},"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be81f","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be81c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be81d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.453Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be828","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be825","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be826","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.470Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be833","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be830","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be831","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.488Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be83e","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be83b","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be83c","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.506Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2142f1ae431867be847","customer":{"isGold":false,"_id":"5b7cd2142f1ae431867be844","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2142f1ae431867be845","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:01:40.521Z","__v":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf46","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf43","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf44","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.066Z","__v":0,"dateReturned":"2018-08-22T03:02:24.068Z"},"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf4f","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf4c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf4d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.082Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf58","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf55","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf56","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.100Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf63","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf60","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf61","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.116Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf6e","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf6b","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf6c","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.135Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2408e567231cb0aaf77","customer":{"isGold":false,"_id":"5b7cd2408e567231cb0aaf74","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2408e567231cb0aaf75","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:02:24.150Z","__v":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff2b","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff28","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff29","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.225Z","__v":0,"dateReturned":"2018-08-22T03:04:17.228Z"},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff34","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff31","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff32","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.244Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff34","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff31","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff32","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.244Z","__v":0,"dateReturned":"2018-08-22T03:04:17.252Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff3d","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff3a","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff3b","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.268Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff3d","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff3a","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff3b","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.268Z","__v":0,"dateReturned":"2018-08-22T03:04:17.275Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff48","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff45","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff46","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.289Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff48","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff45","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff46","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.289Z","__v":0,"dateReturned":"2018-08-22T03:04:17.298Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff53","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff50","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff51","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.313Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff53","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff50","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff51","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.313Z","__v":0,"dateReturned":"2018-08-22T03:04:17.320Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff5c","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff59","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff5a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.330Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b185a792320974ff5c","customer":{"isGold":false,"_id":"5b7cd2b185a792320974ff59","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b185a792320974ff5a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:17.330Z","__v":0,"dateReturned":"2018-08-22T03:04:17.338Z","rentalFee":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c1fa","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c1f7","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c1f8","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.656Z","__v":0,"dateReturned":"2018-08-22T03:04:25.658Z"},"level":"error"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c203","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c200","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c201","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.674Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c203","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c200","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c201","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.674Z","__v":0,"dateReturned":"2018-08-22T03:04:25.681Z","rentalFee":0},"level":"error"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c20c","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c209","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c20a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.695Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c20c","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c209","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c20a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.695Z","__v":0,"dateReturned":"2018-08-22T03:04:25.717Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c217","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c214","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c215","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.732Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c217","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c214","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c215","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.732Z","__v":0,"dateReturned":"2018-08-22T03:04:25.741Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c222","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c21f","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c220","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.756Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c222","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c21f","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c220","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.756Z","__v":0,"dateReturned":"2018-08-22T03:04:25.764Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c22b","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c228","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c229","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.776Z","__v":0},"level":"error"}
+{"message":{"_id":"5b7cd2b9bbfb05324d19c22b","customer":{"isGold":false,"_id":"5b7cd2b9bbfb05324d19c228","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2b9bbfb05324d19c229","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:25.776Z","__v":0,"dateReturned":"2018-08-22T03:04:25.784Z","rentalFee":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d2d","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d2a","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d2b","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.683Z","__v":0,"dateReturned":"2018-08-22T03:04:54.686Z"},"level":"error"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d36","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d33","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d34","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.710Z","__v":0},"level":"error"}
+{"$__":{"strictMode":true,"selected":{},"inserting":false,"getters":{},"_id":"5b7cd2d65e4cf83291f60d36","wasPopulated":false,"activePaths":{"paths":{"dateBooked":"require","movie":"require","customer":"require","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"__v":true},"modify":{},"require":{"dateBooked":true,"movie":true,"customer":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{"save":[null,null],"isNew":[null,null]},"_eventsCount":2,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"skipDefaults":{"_id":true,"customer":true,"customer.isGold":true,"customer._id":true,"customer.name":true,"customer.phone":true,"movie":true,"movie._id":true,"movie.title":true,"movie.dailyRentalRate":true,"dateBooked":true,"__v":true}}},"isNew":false,"_doc":{"_id":"5b7cd2d65e4cf83291f60d36","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d33","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d34","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.710Z","__v":0,"dateReturned":"2018-08-22T03:04:54.715Z","rentalFee":0},"$init":true,"level":"error","message":"banana"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d3f","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d3c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d3d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.730Z","__v":0},"level":"error"}
+{"$__":{"strictMode":true,"selected":{},"inserting":false,"getters":{},"_id":"5b7cd2d65e4cf83291f60d3f","wasPopulated":false,"activePaths":{"paths":{"dateBooked":"require","movie":"require","customer":"require","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"__v":true},"modify":{},"require":{"dateBooked":true,"movie":true,"customer":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{"save":[null,null],"isNew":[null,null]},"_eventsCount":2,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"skipDefaults":{"_id":true,"customer":true,"customer.isGold":true,"customer._id":true,"customer.name":true,"customer.phone":true,"movie":true,"movie._id":true,"movie.title":true,"movie.dailyRentalRate":true,"dateBooked":true,"__v":true}}},"isNew":false,"_doc":{"_id":"5b7cd2d65e4cf83291f60d3f","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d3c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d3d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.730Z","__v":0,"dateReturned":"2018-08-22T03:04:54.736Z","rentalFee":0},"$init":true,"level":"error","message":"banana"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d4a","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d47","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d48","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.746Z","__v":0},"level":"error"}
+{"$__":{"strictMode":true,"selected":{},"inserting":false,"getters":{},"_id":"5b7cd2d65e4cf83291f60d4a","wasPopulated":false,"activePaths":{"paths":{"dateBooked":"require","movie":"require","customer":"require","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"__v":true},"modify":{},"require":{"dateBooked":true,"movie":true,"customer":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{"save":[null,null],"isNew":[null,null]},"_eventsCount":2,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"skipDefaults":{"_id":true,"customer":true,"customer.isGold":true,"customer._id":true,"customer.name":true,"customer.phone":true,"movie":true,"movie._id":true,"movie.title":true,"movie.dailyRentalRate":true,"dateBooked":true,"__v":true}}},"isNew":false,"_doc":{"_id":"5b7cd2d65e4cf83291f60d4a","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d47","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d48","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.746Z","__v":0,"dateReturned":"2018-08-22T03:04:54.754Z","rentalFee":0},"$init":true,"level":"error","message":"banana"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d55","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d52","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d53","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.766Z","__v":0},"level":"error"}
+{"$__":{"strictMode":true,"selected":{},"inserting":false,"getters":{},"_id":"5b7cd2d65e4cf83291f60d55","wasPopulated":false,"activePaths":{"paths":{"dateBooked":"require","movie":"require","customer":"require","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"__v":true},"modify":{},"require":{"dateBooked":true,"movie":true,"customer":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{"save":[null,null],"isNew":[null,null]},"_eventsCount":2,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"skipDefaults":{"_id":true,"customer":true,"customer.isGold":true,"customer._id":true,"customer.name":true,"customer.phone":true,"movie":true,"movie._id":true,"movie.title":true,"movie.dailyRentalRate":true,"dateBooked":true,"__v":true}}},"isNew":false,"_doc":{"_id":"5b7cd2d65e4cf83291f60d55","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d52","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d53","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.766Z","__v":0,"dateReturned":"2018-08-22T03:04:54.772Z","rentalFee":0},"$init":true,"level":"error","message":"banana"}
+{"message":{"_id":"5b7cd2d65e4cf83291f60d5e","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d5b","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d5c","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.783Z","__v":0},"level":"error"}
+{"$__":{"strictMode":true,"selected":{},"inserting":false,"getters":{},"_id":"5b7cd2d65e4cf83291f60d5e","wasPopulated":false,"activePaths":{"paths":{"dateBooked":"require","movie":"require","customer":"require","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"__v":true},"modify":{},"require":{"dateBooked":true,"movie":true,"customer":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{"save":[null,null],"isNew":[null,null]},"_eventsCount":2,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"skipDefaults":{"_id":true,"customer":true,"customer.isGold":true,"customer._id":true,"customer.name":true,"customer.phone":true,"movie":true,"movie._id":true,"movie.title":true,"movie.dailyRentalRate":true,"dateBooked":true,"__v":true}}},"isNew":false,"_doc":{"_id":"5b7cd2d65e4cf83291f60d5e","customer":{"isGold":false,"_id":"5b7cd2d65e4cf83291f60d5b","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2d65e4cf83291f60d5c","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:04:54.783Z","__v":0,"dateReturned":"2018-08-22T03:04:54.789Z","rentalFee":0},"$init":true,"level":"error","message":"banana"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
+{"message":null,"level":"error"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3d9","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3d6","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3d7","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.511Z","__v":0,"dateReturned":"2018-08-22T03:05:34.513Z"},"level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3e2","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3df","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3e0","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.529Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3e2","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3df","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3e0","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.529Z","__v":0,"dateReturned":"2018-08-22T03:05:34.536Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3eb","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3e8","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3e9","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.549Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3eb","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3e8","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3e9","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.549Z","__v":0,"dateReturned":"2018-08-22T03:05:34.562Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3f6","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3f3","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3f4","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.574Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac3f6","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3f3","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3f4","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.574Z","__v":0,"dateReturned":"2018-08-22T03:05:34.583Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac401","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3fe","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3ff","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.599Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac401","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac3fe","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac3ff","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.599Z","__v":0,"dateReturned":"2018-08-22T03:05:34.606Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac40a","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac407","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac408","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.618Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd2fec2df2632d46ac40a","customer":{"isGold":false,"_id":"5b7cd2fec2df2632d46ac407","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd2fec2df2632d46ac408","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:34.618Z","__v":0,"dateReturned":"2018-08-22T03:05:34.625Z","rentalFee":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644a83","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a80","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a81","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.655Z","__v":0,"dateReturned":"2018-08-22T03:05:46.658Z"},"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644a8c","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a89","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a8a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.673Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644a8c","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a89","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a8a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.673Z","__v":0,"dateReturned":"2018-08-22T03:05:46.679Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644a95","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a92","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a93","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.692Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644a95","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a92","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a93","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.692Z","__v":0,"dateReturned":"2018-08-22T03:05:46.699Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644aa0","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a9d","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a9e","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.711Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644aa0","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644a9d","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644a9e","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.711Z","__v":0,"dateReturned":"2018-08-22T03:05:46.720Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644aab","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644aa8","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644aa9","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.734Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644aab","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644aa8","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644aa9","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.734Z","__v":0,"dateReturned":"2018-08-22T03:05:46.740Z","rentalFee":0},"level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644ab4","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644ab1","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644ab2","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.749Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":{"_id":"5b7cd30a81613e3370644ab4","customer":{"isGold":false,"_id":"5b7cd30a81613e3370644ab1","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd30a81613e3370644ab2","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:05:46.749Z","__v":0,"dateReturned":"2018-08-22T03:05:46.755Z","rentalFee":0},"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7bfa","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7bf7","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7bf8","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.259Z","__v":0,"dateReturned":"2018-08-22T03:07:31.260Z"},"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7c03","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7c00","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7c01","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.273Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7c0c","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7c09","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7c0a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.293Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7c17","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7c14","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7c15","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.309Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7c22","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7c1f","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7c20","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.327Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd373ee76da33b41f7c2b","customer":{"isGold":false,"_id":"5b7cd373ee76da33b41f7c28","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd373ee76da33b41f7c29","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:31.341Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f88c","customer":{"isGold":false,"_id":"5b7cd38377883433f862f889","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f88a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.864Z","__v":0,"dateReturned":"2018-08-22T03:07:47.867Z"},"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f895","customer":{"isGold":false,"_id":"5b7cd38377883433f862f892","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f893","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.883Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f89e","customer":{"isGold":false,"_id":"5b7cd38377883433f862f89b","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f89c","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.902Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f8a9","customer":{"isGold":false,"_id":"5b7cd38377883433f862f8a6","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f8a7","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.919Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f8b4","customer":{"isGold":false,"_id":"5b7cd38377883433f862f8b1","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f8b2","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.945Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38377883433f862f8bd","customer":{"isGold":false,"_id":"5b7cd38377883433f862f8ba","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38377883433f862f8bb","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:47.961Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd38c8d2d7134418d756f","customer":{"isGold":false,"_id":"5b7cd38c8d2d7134418d756c","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38c8d2d7134418d756d","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:56.987Z","__v":0,"dateReturned":"2018-08-22T03:07:56.989Z"},"level":"error"}
+{"message":{"_id":"5b7cd38d8d2d7134418d7578","customer":{"isGold":false,"_id":"5b7cd38d8d2d7134418d7575","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38d8d2d7134418d7576","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:57.005Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38d8d2d7134418d7581","customer":{"isGold":false,"_id":"5b7cd38d8d2d7134418d757e","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38d8d2d7134418d757f","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:57.023Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38d8d2d7134418d758c","customer":{"isGold":false,"_id":"5b7cd38d8d2d7134418d7589","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38d8d2d7134418d758a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:57.039Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38d8d2d7134418d7597","customer":{"isGold":false,"_id":"5b7cd38d8d2d7134418d7594","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38d8d2d7134418d7595","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:57.060Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd38d8d2d7134418d75a0","customer":{"isGold":false,"_id":"5b7cd38d8d2d7134418d759d","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd38d8d2d7134418d759e","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:07:57.077Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbb73","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbb70","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbb71","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:08:25.584Z","__v":0,"dateReturned":"2018-08-22T03:08:25.586Z"},"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbb7c","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbb79","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbb7a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:08:25.600Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbb85","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbb82","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbb83","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:08:25.619Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbb90","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbb8d","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbb8e","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-15T03:08:25.636Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":7,"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbb9b","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbb98","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbb99","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:08:25.652Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3a989c569347fccbba4","customer":{"isGold":false,"_id":"5b7cd3a989c569347fccbba1","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3a989c569347fccbba2","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:08:25.668Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfcd8","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfcd5","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfcd6","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:24.726Z","__v":0,"dateReturned":"2018-08-22T03:09:24.728Z"},"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfce1","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfcde","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfcdf","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:24.741Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfcea","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfce7","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfce8","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:24.758Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfcf5","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfcf2","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfcf3","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-15T03:09:24.776Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":7,"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfd00","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfcfd","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfcfe","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:24.792Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3e45a62a934c33cfd09","customer":{"isGold":false,"_id":"5b7cd3e45a62a934c33cfd06","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3e45a62a934c33cfd07","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:24.807Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c553","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c550","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c551","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:41.071Z","__v":0,"dateReturned":"2018-08-22T03:09:41.073Z"},"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c55c","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c559","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c55a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:41.091Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c565","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c562","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c563","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:41.115Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c570","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c56d","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c56e","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-15T03:09:41.138Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":7,"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c57b","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c578","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c579","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:41.157Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd3f5f6e7e4350ad0c584","customer":{"isGold":false,"_id":"5b7cd3f5f6e7e4350ad0c581","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd3f5f6e7e4350ad0c582","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:09:41.173Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
 {"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
-{"message":"Server listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":null,"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57df4","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57df1","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57df2","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.691Z","__v":0,"dateReturned":"2018-08-22T03:10:01.693Z"},"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57dfd","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57dfa","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57dfb","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.711Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57e06","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57e03","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57e04","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.736Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57e11","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57e0e","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57e0f","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-15T03:10:01.756Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":7,"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57e1c","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57e19","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57e1a","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.775Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}
+{"message":{"_id":"5b7cd40984aada3591a57e25","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57e22","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57e23","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.792Z","__v":0},"level":"error"}
+{"message":"banana","level":"error"}
+{"message":0,"level":"error"}

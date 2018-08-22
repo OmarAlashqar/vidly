@@ -21,6 +21,7 @@
     "joi": "^13.6.0",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
     "mongoose": "^5.2.8",
     "morgan": "^1.9.0",
     "pug": "^2.0.3",

@@ -5,9 +5,9 @@ const { User } = require('../../../models/user');
 let server;
 
 describe('/api/genres', () => {
-    beforeEach(() => server = require('../../../index'));
+    beforeEach(() => { server = require('../../../index') });
     afterEach(async () => {
-        server.close();
+        await server.close();
         await Genre.remove({});
     });
 

@@ -5,7 +5,6 @@ const winston = require('winston'); // logging errors via transports
 module.exports = function() {
     // setup logging to a file
     winston.add(new winston.transports.File({ filename: 'logfile.log' }));
-    winston.add(new winston.transports.Console({ format: winston.format.simple() }));
     
     // winston logs unhandled exceptions and logs them into a file
     winston.exceptions.handle(

@@ -9,7 +9,7 @@ const MIN_UTIL = 0; // used for numberInstock and dailyRentalRate
 const MAX_UTIL = 5000;
 
 /* Mongoose Schema */
-const Movie = mongoose.model('movie', {
+const Movie = mongoose.model('movie', new mongoose.Schema({
     title: {
         type: String,
         required: true,
@@ -33,7 +33,7 @@ const Movie = mongoose.model('movie', {
         min: [MIN_UTIL, 'Rental rate must be gte 0'],
         max: MAX_UTIL
     }
-});
+}));
 
 /* JOI schema validators */
 function validate(movie) {
