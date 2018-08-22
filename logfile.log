@@ -421,3 +421,48 @@
 {"message":{"_id":"5b7cd40984aada3591a57e25","customer":{"isGold":false,"_id":"5b7cd40984aada3591a57e22","name":"customer1","phone":"123456"},"movie":{"_id":"5b7cd40984aada3591a57e23","title":"movie1","dailyRentalRate":2},"dateBooked":"2018-08-22T03:10:01.792Z","__v":0},"level":"error"}
 {"message":"banana","level":"error"}
 {"message":0,"level":"error"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"level":"error","message":"moment is not defined"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}
+{"message":"Server listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly-test-db...","level":"info"}

@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Joi = require('joi');
+const moment = require('moment');
 
 const MIN_NAME_LENGTH = 1;
 const MAX_NAME_LENGTH = 50;
@@ -12,7 +13,7 @@ const MIN_UTIL = 0; // used for numberInstock and dailyRentalRate
 const MAX_UTIL = 5000;
 
 /* Mongoose Schema */
-const Rental = mongoose.model('rental', new mongoose.Schema({
+const rentalSchema = new mongoose.Schema({
     customer: {
         type: new mongoose.Schema({
             name: {
@@ -61,7 +62,22 @@ const Rental = mongoose.model('rental', new mongoose.Schema({
         type: Number,
         min: 0
     }
-}));
+});
+rentalSchema.statics.lookup = function(customerId, movieId) {
+    return this.findOne({
+        'customer._id': customerId,
+        'movie._id': movieId
+    });
+}
+
+rentalSchema.methods.return = function() {
+    this.dateReturned = new Date();
+
+    const rentalDays = moment().diff(this.dateBooked, 'days');
+    this.rentalFee = rentalDays * this.movie.dailyRentalRate;
+}
+
+const Rental = mongoose.model('rental', rentalSchema);
 
 /* JOI schema validators */
 function validate(rental) {
