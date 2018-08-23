@@ -7,7 +7,7 @@ require('./startup/routes')(app); // middleware + routes setup
 require('./startup/db')(app); // connect to db
 require('./startup/config')(app); // config settings
 require('./startup/validation')(app); // setup validation
-if (process.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
     require('./startup/prod')(app);
 }
 
