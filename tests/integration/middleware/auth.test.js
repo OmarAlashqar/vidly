@@ -3,11 +3,13 @@ const { User } = require('../../../models/user');
 const { Genre } = require('../../../models/genre');
 let server;
 
+process.env.JWT_SECRET = 'secret123';
+
 describe('auth middleware', () => {
     beforeEach(() => { server = require('../../../index') });
     afterEach(async () => {
         await server.close();
-        await Genre.remove({});
+        await Genre.deleteMany({});
     });
 
     let token;

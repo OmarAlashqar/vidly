@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const Joi = require('joi');
 const jwt = require('jsonwebtoken');
-const config = require('config');
 
 const MIN_UTIL_LENGTH = 1; // used for name, and email
 const MAX_UTIL_LENGTH = 50;
@@ -34,10 +33,13 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.methods.genAuthToken = function() {
-    return jwt.sign({
+    const privateKey = process.env.JWT_SECRET;
+    const payload = {
         _id: this._id,
         isAdmin: this.isAdmin
-    }, config.get('jwtPrivateKey'));  
+    };
+
+    return jwt.sign(payload, privateKey);  
 };
 
 const User = mongoose.model('user', userSchema);

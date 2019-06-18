@@ -24,7 +24,7 @@ module.exports = function(app) {
     app.use(express.urlencoded({ extended: true })); // parses urlencoded in req.body
     app.use(express.static('public')); // serves static files from public/
     
-    if (app.get('env') === 'development') {
+    if (process.env.NODE_ENV === 'development') {
         app.use(morgan('tiny'));
         debug('Morgan enabled...');
     }

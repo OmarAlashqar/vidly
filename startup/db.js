@@ -1,11 +1,14 @@
 /* Connect to DB */
 const mongoose = require('mongoose');
 const winston = require('winston');
-const config = require('config');
 
 // Make sure DB url is set: 'mongodb://localhost:<port>/<db>' etc.
 module.exports = function(app) {
-    const db = config.get('db');
-    mongoose.connect(db, { useNewUrlParser: true })
-        .then(() => winston.info(`Connected to ${db}...`));
+    let mongoURI;
+
+    if (process.env.NODE_ENV === 'test') mongoURI = process.env.MONGO_TEST_URI;
+    else mongoURI = process.env.MONGO_URI;
+
+    mongoose.connect(mongoURI, { useNewUrlParser: true })
+        .then(() => winston.info(`Connected to ${mongoURI}...`));
 }

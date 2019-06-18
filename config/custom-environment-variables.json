@@ -1,4 +1,0 @@
-{
-    "db": "vidly_mongodb",
-    "jwtPrivateKey": "vidly_jwtPrivateKey"
-}

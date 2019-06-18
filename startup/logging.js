@@ -11,5 +11,6 @@ module.exports = function() {
         new winston.transports.Console({ colorize: true, prettyPrint: true }),
         new winston.transports.File({ filename: 'uncaughtExceptions.log' })
     );
+    
     process.on('unhandledRejection', (ex) => { throw ex }); // throw it to winston's catch
 }

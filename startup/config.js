@@ -1,10 +1,23 @@
 /* Setup configurations */
-const config = require('config'); // sets up environment variables
 
 module.exports = function (app) {
-    if (!config.get('jwtPrivateKey')) {
-        throw new Error('FATAL ERROR: vidly_jwtPrivateKey is not defined');
+    const expectToBeSet = [
+        'MONGO_URI',
+        'JWT_SECRET',
+    ];
+
+    expectToBeSet.forEach(v => {
+        if (!process.env[v]) {
+            throw new Error(`FATAL: ${v} environment variable is not set.`);
+        }
+    });
+
+    if (process.env.NODE_ENV === 'test' && !process.env.MONGO_TEST_URI) {
+        throw new Error(`FATAL: ${v} environment variable is not set.`);
     }
+
+    if (!process.env.NODE_ENV) process.env.NODE_ENV = 'development';
+    if (!process.env.PORT) process.env.PORT = 3000;
 
     app.set('view engine', 'pug'); // use pug for templating
     app.set('views', './views'); // default

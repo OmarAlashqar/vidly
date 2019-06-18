@@ -1,7 +1,8 @@
 const { User } = require('../../../models/user');
 const jwt = require('jsonwebtoken');
-const config = require('config');
 const mongoose = require('mongoose');
+
+process.env.JWT_SECRET = 'secret123';
 
 describe('user.generateAuthToken', () => {
     it('should return a valid JWT', () => {
@@ -11,7 +12,7 @@ describe('user.generateAuthToken', () => {
         };
         const user = new User(payload);
         const token = user.genAuthToken();
-        const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
         expect(decoded).toMatchObject(payload);
     });

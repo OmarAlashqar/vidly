@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 const { User } = require('../../../models/user');
 const auth = require('../../../middleware/auth');
 
+process.env.JWT_SECRET = 'secret123';
+
 describe('auth middleware', () => {
     it('should populate req.user with the payload of a valid JWT', () => {
         const user = {

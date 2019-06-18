@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const Joi = require('joi');
-const winston = require('winston');
 const validate = require('../middleware/validate')
 const auth = require('../middleware/auth');
 const { Rental } = require('../models/rental');
